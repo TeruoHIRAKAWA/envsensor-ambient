@@ -32,6 +32,7 @@ while True:
                 'created': data.tick_last_update.strftime('%Y-%m-%d %H:%M:%S'),
                 'd1': data.val_temp,
                 'd2': data.val_heat,
+                'd3': data.val_light,
                 }
             )
 
